@@ -1,3 +1,5 @@
+FROM {{base_image}}
+
 CMD ["/bin/sh"]
 COPY dir:8953456e14df8cba6e02e6afe1a2e419aaa8d06fb212052b146f8f86361de7e6 in /venv
 
